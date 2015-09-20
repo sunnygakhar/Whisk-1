@@ -1,14 +1,17 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "62BEACD482281EF3A337D8035C18F214667EA17F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357" : 0,
+    "62BEACD482281EF3A337D8035C18F214667EA17F" : 0,
     "2045D86BC5D391C299DCC498309E722E037BFF4E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "51732295-6908-46EF-8812-058444C7AFEB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357" : "Whisk\/OAuth2\/SwiftKeychain\/",
+    "62BEACD482281EF3A337D8035C18F214667EA17F" : "Whisk\/",
     "2045D86BC5D391C299DCC498309E722E037BFF4E" : "Whisk\/OAuth2\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Whisk",
@@ -24,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/p2\/OAuth2.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2045D86BC5D391C299DCC498309E722E037BFF4E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liamuk\/Whisk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "62BEACD482281EF3A337D8035C18F214667EA17F"
     }
   ]
 }

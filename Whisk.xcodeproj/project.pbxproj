@@ -15,7 +15,8 @@
 		2E80DAC31BAE1A14009DACC3 /* WhiskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80DAC21BAE1A14009DACC3 /* WhiskTests.swift */; };
 		2E80DACE1BAE1A14009DACC3 /* WhiskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80DACD1BAE1A14009DACC3 /* WhiskUITests.swift */; };
 		2E80DADE1BAE272F009DACC3 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80DADD1BAE272F009DACC3 /* SignInController.swift */; settings = {ASSET_TAGS = (); }; };
-		2E80DBCF1BAE40A1009DACC3 /* OAuth2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80DB3A1BAE3FB5009DACC3 /* OAuth2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BC4EBAE81BAE6ED700CC68E5 /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4EBAE01BAE6EA400CC68E5 /* OAuth2.framework */; };
+		BC4EBAE91BAE6EDE00CC68E5 /* OAuth2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC4EBAE01BAE6EA400CC68E5 /* OAuth2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,30 +34,30 @@
 			remoteGlobalIDString = 2E80DAA91BAE1A14009DACC3;
 			remoteInfo = Whisk;
 		};
-		2E80DB371BAE3FB5009DACC3 /* PBXContainerItemProxy */ = {
+		BC4EBADD1BAE6EA400CC68E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */;
+			containerPortal = BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEE209471942772800736F1A;
 			remoteInfo = OAuth2;
 		};
-		2E80DB391BAE3FB5009DACC3 /* PBXContainerItemProxy */ = {
+		BC4EBADF1BAE6EA400CC68E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */;
+			containerPortal = BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEDB8624193FAAE500C4EEA1;
 			remoteInfo = OAuth2iOS;
 		};
-		2E80DB3B1BAE3FB5009DACC3 /* PBXContainerItemProxy */ = {
+		BC4EBAE11BAE6EA400CC68E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */;
+			containerPortal = BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEE209A219427DFE00736F1A;
 			remoteInfo = OAuth2Tests;
 		};
-		2E80DBD01BAE40A1009DACC3 /* PBXContainerItemProxy */ = {
+		BC4EBAE61BAE6ED200CC68E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */;
+			containerPortal = BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = EEDB8623193FAAE500C4EEA1;
 			remoteInfo = OAuth2iOS;
@@ -70,7 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2E80DBCF1BAE40A1009DACC3 /* OAuth2.framework in Embed Frameworks */,
+				BC4EBAE91BAE6EDE00CC68E5 /* OAuth2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +93,7 @@
 		2E80DACD1BAE1A14009DACC3 /* WhiskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskUITests.swift; sourceTree = "<group>"; };
 		2E80DACF1BAE1A14009DACC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E80DADD1BAE272F009DACC3 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
-		2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2.xcodeproj; path = OAuth2/OAuth2.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2.xcodeproj; path = OAuth2/OAuth2/OAuth2.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4EBAE81BAE6ED700CC68E5 /* OAuth2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +145,7 @@
 		2E80DAAC1BAE1A14009DACC3 /* Whisk */ = {
 			isa = PBXGroup;
 			children = (
-				2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */,
+				BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */,
 				2E80DAAD1BAE1A14009DACC3 /* AppDelegate.swift */,
 				2E80DAAF1BAE1A14009DACC3 /* ViewController.swift */,
 				2E80DAB41BAE1A14009DACC3 /* Assets.xcassets */,
@@ -173,12 +175,12 @@
 			path = WhiskUITests;
 			sourceTree = "<group>";
 		};
-		2E80DB321BAE3FB5009DACC3 /* Products */ = {
+		BC4EBAD81BAE6EA400CC68E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E80DB381BAE3FB5009DACC3 /* OAuth2.framework */,
-				2E80DB3A1BAE3FB5009DACC3 /* OAuth2.framework */,
-				2E80DB3C1BAE3FB5009DACC3 /* OAuth2Tests.xctest */,
+				BC4EBADE1BAE6EA400CC68E5 /* OAuth2.framework */,
+				BC4EBAE01BAE6EA400CC68E5 /* OAuth2.framework */,
+				BC4EBAE21BAE6EA400CC68E5 /* OAuth2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,7 +200,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2E80DBD11BAE40A1009DACC3 /* PBXTargetDependency */,
+				BC4EBAE71BAE6ED200CC68E5 /* PBXTargetDependency */,
 			);
 			name = Whisk;
 			productName = Whisk;
@@ -276,8 +278,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2E80DB321BAE3FB5009DACC3 /* Products */;
-					ProjectRef = 2E80DB311BAE3FB5009DACC3 /* OAuth2.xcodeproj */;
+					ProductGroup = BC4EBAD81BAE6EA400CC68E5 /* Products */;
+					ProjectRef = BC4EBAD71BAE6EA400CC68E5 /* OAuth2.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -290,25 +292,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2E80DB381BAE3FB5009DACC3 /* OAuth2.framework */ = {
+		BC4EBADE1BAE6EA400CC68E5 /* OAuth2.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuth2.framework;
-			remoteRef = 2E80DB371BAE3FB5009DACC3 /* PBXContainerItemProxy */;
+			remoteRef = BC4EBADD1BAE6EA400CC68E5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2E80DB3A1BAE3FB5009DACC3 /* OAuth2.framework */ = {
+		BC4EBAE01BAE6EA400CC68E5 /* OAuth2.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuth2.framework;
-			remoteRef = 2E80DB391BAE3FB5009DACC3 /* PBXContainerItemProxy */;
+			remoteRef = BC4EBADF1BAE6EA400CC68E5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2E80DB3C1BAE3FB5009DACC3 /* OAuth2Tests.xctest */ = {
+		BC4EBAE21BAE6EA400CC68E5 /* OAuth2Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = OAuth2Tests.xctest;
-			remoteRef = 2E80DB3B1BAE3FB5009DACC3 /* PBXContainerItemProxy */;
+			remoteRef = BC4EBAE11BAE6EA400CC68E5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -380,10 +382,10 @@
 			target = 2E80DAA91BAE1A14009DACC3 /* Whisk */;
 			targetProxy = 2E80DACA1BAE1A14009DACC3 /* PBXContainerItemProxy */;
 		};
-		2E80DBD11BAE40A1009DACC3 /* PBXTargetDependency */ = {
+		BC4EBAE71BAE6ED200CC68E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OAuth2iOS;
-			targetProxy = 2E80DBD01BAE40A1009DACC3 /* PBXContainerItemProxy */;
+			targetProxy = BC4EBAE61BAE6ED200CC68E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -581,6 +583,7 @@
 				2E80DAD41BAE1A14009DACC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E80DAD51BAE1A14009DACC3 /* Build configuration list for PBXNativeTarget "WhiskTests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +592,7 @@
 				2E80DAD71BAE1A14009DACC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E80DAD81BAE1A14009DACC3 /* Build configuration list for PBXNativeTarget "WhiskUITests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +601,7 @@
 				2E80DADA1BAE1A14009DACC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

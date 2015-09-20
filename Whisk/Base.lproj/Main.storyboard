@@ -44,7 +44,6 @@
         <!--Sign In Controller-->
         <scene sceneID="LRl-o2-ALz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o2e-J7-twR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="rIB-Eh-XcN" customClass="SignInController" customModule="Whisk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FCi-rs-RHN"/>
@@ -67,6 +66,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2e-J7-twR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1154" y="439"/>
         </scene>
