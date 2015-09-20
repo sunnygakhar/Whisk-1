@@ -18,6 +18,48 @@ class SignInController: UIViewController {
         super.viewDidLoad()
         appDelegate.oauth2.onAuthorize = { parameters in
             print("Did authorize with parameters: \(parameters)")
+            let requrl = NSURL(string: "https://api.uber.com/v1/me")
+            let req = self.appDelegate.oauth2.request(forURL: requrl!)
+            let session = NSURLSession.sharedSession()
+            let task = session.dataTaskWithRequest(req) { data, response, error in
+                if nil != error {
+                    // uh oh
+                }
+                else {
+                    do {
+                        let result = try NSJSONSerialization.JSONObjectWithData(
+                            data!,
+                            options: NSJSONReadingOptions.AllowFragments
+                            ) as! NSDictionary
+                        
+                            let requrl = NSURL(string: "https://api.uber.com/v1/me")
+                            let req = self.appDelegate.oauth2.request(forURL: requrl!)
+                            let session = NSURLSession.sharedSession()
+                            let task = session.dataTaskWithRequest(req) { data, response, error in
+                                if nil != error {
+                                    // uh oh
+                                }
+                                else {
+                                    do {
+                                        let result = try NSJSONSerialization.JSONObjectWithData(
+                                            data!,
+                                            options: NSJSONReadingOptions.AllowFragments
+                                            ) as! NSDictionary
+                                        
+                                        
+                                    }
+                                    catch {
+                                    }
+                                }
+                            }
+                            task.resume()
+
+                    }
+                    catch {
+                    }
+                }
+            }
+            task.resume()
         }
         appDelegate.oauth2.onFailure = { error in        // `error` is nil on cancel
             if nil != error {

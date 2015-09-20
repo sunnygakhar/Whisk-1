@@ -36,6 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         annotation: AnyObject) -> Bool {
         
         oauth2.handleRedirectURL(url)
+            
         return true
     }
 

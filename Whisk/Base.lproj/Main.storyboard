@@ -44,6 +44,7 @@
         <!--Sign In Controller-->
         <scene sceneID="LRl-o2-ALz">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2e-J7-twR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="rIB-Eh-XcN" customClass="SignInController" customModule="Whisk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FCi-rs-RHN"/>
@@ -52,12 +53,22 @@
                     <view key="view" contentMode="scaleToFill" id="6F7-YY-tsD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiS-lE-kTM">
+                                <rect key="frame" x="212" y="259" width="176" height="81"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Whisk Me"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FiS-lE-kTM" firstAttribute="centerY" secondItem="6F7-YY-tsD" secondAttribute="centerY" id="9rf-Ib-Eps"/>
+                            <constraint firstItem="FiS-lE-kTM" firstAttribute="centerX" secondItem="6F7-YY-tsD" secondAttribute="centerX" id="O4J-ls-mvH"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o2e-J7-twR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044" y="455"/>
+            <point key="canvasLocation" x="1154" y="439"/>
         </scene>
     </scenes>
 </document>
